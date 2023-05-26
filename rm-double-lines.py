@@ -1,5 +1,5 @@
-input_file = 'outp0.txt'
-output_file = 'outp1.txt'
+input_file = 'inp.txt'
+output_file = 'outp.txt'
 
 # Open the input file for reading
 with open(input_file, 'r') as file:
@@ -17,4 +17,4 @@ with open(output_file, 'w') as file:
 # Close the files
 file.close()
 
-print("Duplicate lines removed and saved to output.txt.")
+print("Done")
